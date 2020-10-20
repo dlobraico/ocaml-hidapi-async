@@ -1,3 +1,5 @@
 * ocaml-hidapi-async
 
 Async-compatible wrapped for https://github.com/vbmithr/ocaml-hidapi.
+
+Currently depends on my fork: https://github.com/dlobraico/ocaml-hidapi (until I clean that up and make a pull-request).
