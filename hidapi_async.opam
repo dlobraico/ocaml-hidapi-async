@@ -1,0 +1,20 @@
+opam-version: "2.0"
+name: "hidapi-async"
+authors: "Dominick LoBraico <d@lobraico.com>"
+maintainer: "Dominick LoBraico <d@lobraico.com>"
+homepage: "https://github.com/dlobraico/ocaml-hidapi-async"
+bug-reports: "https://github.com/dlobraico/ocaml-hidapi-async/issues"
+dev-repo: "git+https://github.com/dlobraico/ocaml-hidapi-async"
+
+build: [ "dune" "build" "-p" name "-j" jobs ]
+depends: [
+  "ocaml" {>= "4.02.0"}
+  "dune" {build & >= "1.8.2"}
+  "core"
+  "async"
+  "hidapi" 
+]
+synopsis: "Async wrapper for ocaml-hidapi"
+description: """
+Async-friendly wrapper for vbmithr's ocaml-hidapi library.
+"""

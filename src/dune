@@ -1,0 +1,5 @@
+(library
+ (name hidapi_async)
+ (public_name hidapi_async)
+ (libraries core async hidapi)
+ (preprocess (pps ppx_jane)))
