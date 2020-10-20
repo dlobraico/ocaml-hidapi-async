@@ -1,0 +1,3 @@
+* ocaml-hidapi-async
+
+Async-compatible wrapped for https://github.com/vbmithr/ocaml-hidapi.
